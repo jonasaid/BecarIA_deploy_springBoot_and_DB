@@ -43,7 +43,7 @@ cd /home/ec2-user
 1. **Descripción**: Cambia el directorio de trabajo al directorio del usuario ec2-user.
 2. **Propósito**: Establecer un entorno de trabajo adecuado para las próximas operaciones.
 
-```bash
+```sh
 sudo wget https://dev.mysql.com/get/mysql84-community-release-el9-1.noarch.rpm
 ```
 1. **Descripción**: Descarga el paquete RPM de MySQL 8.4 desde el sitio oficial de MySQL.
@@ -55,7 +55,7 @@ sudo yum install mysql84-community-release-el9-1.noarch.rpm
 1. **Descripción**: Instala el paquete RPM descargado.
 2. **Propósito**: Configurar el repositorio de MySQL en el sistema.
 
-```bash
+```sh
 sudo yum install mysql-community-server
 ```
 
